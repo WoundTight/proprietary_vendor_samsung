@@ -21,9 +21,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlteusc/proprietary/vendor/firmware/bcm43569A1.hcd:system/vendor/firmware/bcm43569A1.hcd \
     vendor/samsung/trlteusc/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     vendor/samsung/trlteusc/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
-    vendor/samsung/trlteusc/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/trlteusc/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/samsung/trlteusc/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/samsung/trlteusc/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/trlteusc/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/trlteusc/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/trlteusc/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/trlteusc/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/trlteusc/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/trlteusc/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/trlteusc/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \

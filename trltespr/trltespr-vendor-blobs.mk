@@ -21,7 +21,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltespr/proprietary/vendor/firmware/bcm43569A1.hcd:system/vendor/firmware/bcm43569A1.hcd \
     vendor/samsung/trltespr/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     vendor/samsung/trltespr/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
+    vendor/samsung/trltespr/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/samsung/trltespr/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/trltespr/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/trltespr/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/trltespr/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/trltespr/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/trltespr/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/trltespr/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/samsung/trltespr/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
